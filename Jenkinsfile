@@ -2,7 +2,7 @@ pipeline {
     agent {
         label 'master'
     }
-    environments
+    environment
     {
         SONAR_TOKEN = "83c2c0e12d0e7f91e8e4394b01770fb79431e88f"
     }
